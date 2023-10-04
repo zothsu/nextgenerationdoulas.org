@@ -1,0 +1,8 @@
+baseURL = 'http://nextgenerationdoulas.org/'
+languageCode = 'en-us'
+title = 'Next Generation Doulas'
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"

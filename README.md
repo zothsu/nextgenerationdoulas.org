@@ -5,6 +5,8 @@
 
 This profile created with Hugo and deployed via GitHub Pages. This profile will also serve as a concept design for an opensource doula network.
 
+Healthcare professional profile for Emilie Young, providing birthing and postpartum information. <!-- Part of the Doulas of Oregon collective. Left off for now-->
+
 ## Authors
 
 [Zoe Sullivan](http://github.com/zothsu) - A bit about Zoe
@@ -14,6 +16,11 @@ This profile created with Hugo and deployed via GitHub Pages. This profile will 
 ## Technology Used
 
 ## How to Install
+
+<!--
+     Fork repository for Doulas of oregon.org and follow readme.md instructions.
+	For a subdomain submit request to zothsu@protonmail.com **Subject: Request for subdomain - doulasoforegon.org**
+-->
 
 ## License
 
