@@ -1,9 +1,4 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
-  "frontMatter.content.pageFolders": [
-    {
-      "title": "content",
-      "path": "[[workspace]]/content"
-    }
-  ]
+  "frontMatter.content.pageFolders": []
 }
