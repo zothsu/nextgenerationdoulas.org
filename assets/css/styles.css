@@ -1,3 +1,12 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark light;
+}
 body {
   padding: 1em;
   max-width: 75ch;
@@ -5,24 +14,28 @@ body {
   background-color: #2f0234;
   color: #F8FFE3;
   display: grid;
-  line: height 1.2em;
-  grid-template: 
-  "title title logo"
-  "services services services"
+  font-size: 1.25rem;
+  line-height: 1.5;
 }
 
 h1 {
-  grid-area: title;
+  letter-spacing: 0.2%;
+  font-size:3rem;
+  text-align: center;
+  padding-top: 1.5em;
 }
 
+.section-title {
+  font-size:2.25rem;
+}
+
+section {
+  padding-block: 5rem;
+}
 img {
-  grid-area: logo;
-  max-width: 10em;
+  max-width: 50vw;
 }
 
-main {
-  grid-area: services;
-}
 nav > ul {
   position: fixed;
   top: 0;
@@ -46,6 +59,22 @@ nav > ul > li a {
   display: flex;
 }
 
+.wrapper {
+  max-width: 50rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+#services {
+  color: #2f0234;
+  background-image:
+    linear-gradient(
+      45deg,
+      #12c2e9,
+      #c471ed,
+      #f64f59
+    );
+}
 .boardmember-title {
   font-style: italic;
   margin-top: -1em;
