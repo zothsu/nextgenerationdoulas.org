@@ -26,7 +26,7 @@ Project is currently under construction
 - VS Code on Ubuntu 20.08
 
 ## Resources
-
+[CSS Shapes](https://css-tricks.com/the-shapes-of-css/)
 
 ## Thanks
 

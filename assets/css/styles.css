@@ -5,6 +5,7 @@ body {
   background-color: #2f0234;
   color: #F8FFE3;
   display: grid;
+  line: height 1.2em;
   grid-template: 
   "title title logo"
   "services services services"
@@ -17,14 +18,39 @@ h1 {
 img {
   grid-area: logo;
   max-width: 10em;
-  
 }
 
 main {
   grid-area: services;
 }
+nav > ul {
+  position: fixed;
+  top: 0;
+  right: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+nav > ul > li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+nav > ul > li a {
+  color: #fff;
+  text-decoration: none;
+}
 
 .flex {
   display: flex;
+}
+
+.boardmember-title {
+  font-style: italic;
+  margin-top: -1em;
+}
+
+#boardmember-name {
+  font-weight: 700;
 }
