@@ -43,6 +43,8 @@ nav > ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: #2f0234;
+  padding: 1em;
 }
 
 nav > ul > li {
