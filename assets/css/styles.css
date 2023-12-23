@@ -9,7 +9,6 @@ html {
 }
 body {
   padding: 1em;
-  max-width: 75ch;
   margin: 0 auto;
   background-color: #2f0234;
   color: #F8FFE3;
@@ -68,15 +67,25 @@ nav > ul > li a {
 }
 
 #services {
+  position: relative;
   color: #2f0234;
-  background-image:
-    linear-gradient(
-      45deg,
-      #12c2e9,
-      #c471ed,
-      #f64f59
-    );
 }
+
+#services::after {
+  content: '';
+  background-image:
+  linear-gradient(
+    45deg,
+    #12c2e9,
+    #c471ed,
+    #f64f59
+  );
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  transform: skewY(-5deg);
+}
+
 .boardmember-title {
   font-style: italic;
   margin-top: -1em;
