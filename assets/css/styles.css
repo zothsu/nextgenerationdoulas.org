@@ -113,7 +113,6 @@ nav > ul > li a {
   display: flex;
   align-items: center;
   border-radius: 1em;
-  overflow: hidden;
 }
 
 .nav-bar button {
@@ -139,6 +138,7 @@ nav > ul > li a {
   transition: all 0.2s linear;
 }
 
+
 .nav-container a {
   color: #020617;
   text-decoration: none;
@@ -151,16 +151,4 @@ nav > ul > li a {
 
 .appear {
   right: 15px !important;
-}
-
-.blury {
-  z-index: 10;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: #2b2a39b3;
-  backdrop-filter: blur(5px);
-  display: none;
 }
