@@ -30,7 +30,7 @@ h1 {
 section {
   padding-block: 5rem;
 }
-img {
+#logo-lg {
   max-width: 50vw;
   padding-top: 1em;
 }
@@ -118,7 +118,10 @@ nav > ul > li a {
 
 .nav-bar button {
   border: none;
-  background: #2f0234;
+  margin-top: .5em;
+  background: rgba(80 0 100 / 0.7);
+  border-radius: 50%;
+  padding: .5em;
   color: #fff;
   outline-offset: -3px;
   cursor: pointer;
@@ -142,7 +145,7 @@ nav > ul > li a {
   display: block;
   background: #e2e8f0;
   margin: 15px 0;
-  padding: 5px 15px;
+  padding: 1em;
   border-radius: 5px;
 }
 
