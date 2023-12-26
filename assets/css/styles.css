@@ -111,8 +111,6 @@ nav > ul > li a {
 
 .nav-bar a {
   display: flex;
-  align-items: center;
-  border-radius: 1em;
 }
 
 .nav-bar button {
