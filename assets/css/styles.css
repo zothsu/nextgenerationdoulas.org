@@ -160,11 +160,53 @@ nav > ul > li a {
   text-decoration: none;
   display: block;
   background: #e2e8f0;
-  margin: 15px 0;
   padding: 1em;
   border-radius: 5px;
 }
 
 .appear {
-  right: 15px !important;
+  right: 1em !important;
+}
+
+@media (min-width: 400px) {
+  .nav-bar button {
+    display: none;
+  }
+
+  .nav-bar {
+    z-index: 11;
+    position: fixed;
+  }
+  
+  .nav-bar a {
+    display: none;
+  }
+  
+  .nav-container {
+    z-index: 11;
+    position: fixed;
+    width: 100vw;
+    height: fit-content;  
+    top: 0;
+    right: 0;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;  
+  }
+  
+  
+  .nav-container a {
+    color: #020617;
+    text-decoration: none;
+    padding: .5em;
+  }
+  
+
+  #logo-lg {
+    max-width: 50vw;
+    padding-top: 5em;
+  }
+  
 }
