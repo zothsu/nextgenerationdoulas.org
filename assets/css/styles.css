@@ -38,11 +38,13 @@ p {
 
 .section-title {
   font-size:2.25rem;
+  padding-top: 2em;
 }
 
 section {
-  padding-block: 5rem;
+  padding: 6rem;
 }
+
 #logo-lg {
   max-width: 50vw;
   padding-top: 1em;
