@@ -86,7 +86,8 @@ nav > ul > li a {
 
 #services {
   position: relative;
-  color: #2f0234;
+  color: #020617;
+  background-color: #c471ed;
 }
 
 #services::after {
