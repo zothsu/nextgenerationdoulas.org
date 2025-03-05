@@ -1,22 +1,36 @@
 # Next Generation Doulas
 
-Repository initiated by _**Zoe T. Sullivan**_
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) Repository initiated by _**Zoe T. Sullivan**_
 
-Profile created with Hugo and deployed via GH pages. This profile will also serve as a concept design for an opensource doula network.
-
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+Pure HTML/CSS/JS and deployed via Hostinger.
 
 ## About
 
 Next Generation Doulas is dedicated to providing trauma-informed doula support throughout pregnancy, labor, and up to one year postpartum. We aim to improve maternal and infant care outcomes, particularly for BIPOC, Indigenous, LGBTQ, disabled, and other underserved communities. Our mission is to support families in fostering strong, healthy connections that promote wellness for the next generation.
 
-## Features
+## Table of Contents
 
-- **Birth Doula Services** – Comprehensive labor and postpartum support
-- **Postpartum Care** – Daytime and overnight assistance for new parents
-- **Sliding Scale & OHP Coverage** – Accessible support for diverse families
-- **Community Resources & Advocacy** – Ensuring families have the tools they need
-- **Trauma-Informed Care** – Supporting healing and empowerment through connection
+- [To-do](#to-do)
+- [Services](#services)
+  - [Birth Doula Services](#birth-doula-services)
+  - [Postpartum Care](#postpartum-care)
+- [Installation & Development](#installation--development)
+  - [Prerequisites](#prerequisites)
+  - [Running Locally](#running-locally)
+  - [Deployment on Hostinger](#deployment-on-hostinger)
+- [Team](#team)
+- [Contributing](#contributing)
+- [Technologies/Applications used](#technologiesapplications-used)
+- [Resources](#resources)
+- [Thanks](#thanks)
+- [License](#license)
+
+## To-do
+
+- Publish minimized code
+- Download font to server
+  - Add @font-face
+- Get only the icons you need from cloudflar
 
 ## Services
 
@@ -74,32 +88,24 @@ Ensure you have the following installed before working on the project:
    ```
 4. Open your browser and go to `http://localhost:1313/`
 
-## Deployment on GitHub Pages
+### Deployment on Hostinger
 
-This project is deployed using [GitHub Pages](https://pages.github.com/). To update and deploy the site:
+This project is deployed using Hostinger. To deploy updates or make changes, follow these steps:
 
-1. **Build the Static Files**
-   ```sh
-   hugo --minify -d docs
-   ```
-   This generates the static site in the `docs/` directory (as required by GitHub Pages).
+Build the Static Files. This will generate the static site in the `public/` directory.
 
-2. **Push Changes to GitHub**
-   ```sh
-   git add .
-   git commit -m "Update site"
-   git push origin main
-   ```
+```sh
+hugo --minify
+```
 
-3. **Enable GitHub Pages** (if not already set up):
-   - Go to your repository on GitHub.
-   - Navigate to **Settings > Pages**.
-   - Under "Source," select `main` branch and `/docs` folder.
-   - Save the settings.
+Upload to Hostinger
+    1. Log in to your Hostinger account.
+    2. Navigate to the File Manager or use FTP to upload files.
+    3. Replace the existing files in the public directory with the new ones.
+        Alternative: Deploy via Git (if using Git-based deployment)
+    4. Open your website in a browser to ensure the changes are live.
+        If caching issues occur, clear the cache from Hostinger’s control panel.
 
-4. **Check the Website**
-   - Visit `https://zothsu.github.io/nextgenerationdoulas.org/` to ensure the changes are live.
-   - If needed, clear your browser cache to view updates.
 
 ## Team
 
@@ -114,19 +120,13 @@ This project is deployed using [GitHub Pages](https://pages.github.com/). To upd
 
 Contributions are welcome! Please open an issue or submit a pull request if you have improvements or bug fixes.
 
-## Known Bugs
-
-Project is currently under construction
-
-## Features to add
-
-Project is currently under construction
 
 ## Technologies/Applications used.
 
 - VS Code on Ubuntu 20.08
 
 ## Resources
+
 [CSS Shapes](https://css-tricks.com/the-shapes-of-css/)
 
 ## Thanks
