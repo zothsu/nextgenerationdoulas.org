@@ -1,14 +1,12 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+@font-face {
+  font-family: "Orbitron";
+  src: url("../fonts/spaceGrotesk/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
 }
 
-html {
-  color-scheme: dark light;
-}
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Space+Grotesk', 'Space Grotesk', sans-serif;
   margin: 0 auto;
   background-color: #2f0234;
   color: #F8FFE3;
@@ -19,10 +17,11 @@ body {
 }
 
 h1 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size:2.3rem;
   padding-top: 1em;
 }
+
 h2 {
   font-weight: 600;
 }
@@ -98,7 +97,6 @@ nav > ul > li a {
   );
   position: absolute;
   z-index: -1;
-  inset: 0;
   transform: skewY(-5deg);
 }
 
