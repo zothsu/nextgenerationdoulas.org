@@ -32,35 +32,6 @@ Next Generation Doulas is dedicated to providing trauma-informed doula support t
   - Add @font-face
 - Get only the icons you need from cloudflar
 
-## Services
-
-### Birth Doula Services
-
-- **OHP Accepted / Sliding Scale**
-- **Private Pay Package: $2,000**
-  - Two prenatal visits (in-person or virtual)
-  - Customized laminated birth plan
-  - 24/7 on-call support from 37 weeks
-  - Continuous emotional and physical support during labor and delivery
-  - Backup doula availability
-  - Eight hours of postpartum care (two daytime visits or one overnight shift)
-
-### Postpartum Care
-
-- **FSA Accepted**
-- **OHP Coverage:** Covers 8 hours of care; additional services available via private pay or donations.
-
-**Rates:**
-- **Daytime:** $35/hr (weekdays), $40/hr (weekends)
-- **Overnights:** $45/hr (weekdays), $50/hr (weekends)
-
-Includes:
-- Newborn care & postpartum education
-- Trauma-informed emotional support
-- Light housekeeping & meal preparation
-- Lactation support & community referrals
-- Overnight infant care & sibling support
-
 ## Installation & Development
 
 ### Prerequisites
