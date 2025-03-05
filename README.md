@@ -46,17 +46,23 @@ Ensure you have the following installed before working on the project:
 ### Running Locally
 
 1. Clone the repository:
+
    ```sh
    git clone https://github.com/YOUR_GITHUB_USERNAME/nextgenerationdoulas.org.git
    ```
+
 2. Navigate into the project directory:
+
    ```sh
    cd nextgenerationdoulas.org
    ```
+
 3. Start the Hugo development server:
+
    ```sh
    hugo server -D
    ```
+
 4. Open your browser and go to `http://localhost:1313/`
 
 ### Deployment on Hostinger
@@ -72,11 +78,10 @@ hugo --minify
 Upload to Hostinger
     1. Log in to your Hostinger account.
     2. Navigate to the File Manager or use FTP to upload files.
-    3. Replace the existing files in the public directory with the new ones.
+    3. Replace the existing files in the public directory with the contents of this repository.
         Alternative: Deploy via Git (if using Git-based deployment)
     4. Open your website in a browser to ensure the changes are live.
         If caching issues occur, clear the cache from Hostinger’s control panel.
-
 
 ## Team
 
@@ -91,10 +96,10 @@ Upload to Hostinger
 
 Contributions are welcome! Please open an issue or submit a pull request if you have improvements or bug fixes.
 
+## Technologies/Applications used
 
-## Technologies/Applications used.
-
-- VS Code on Ubuntu 20.08
+- HTML
+- Vanilla CSS/JS
 
 ## Resources
 
@@ -104,7 +109,6 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 
 [RichardLitt](https://github.com/RichardLitt) for creating the Standard README
 
-
 ## License
 
-Licensed under [MIT](LICENSE) 
+Licensed under [MIT](LICENSE)
