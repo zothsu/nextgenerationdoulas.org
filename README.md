@@ -48,32 +48,21 @@ Ensure you have the following installed before working on the project:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/YOUR_GITHUB_USERNAME/nextgenerationdoulas.org.git
+   git clone https://github.com/zothsu/nextgendoulas.org.git
    ```
 
 2. Navigate into the project directory:
 
    ```sh
-   cd nextgenerationdoulas.org
+   cd nextgendoulas.org
    ```
 
-3. Start the Hugo development server:
-
-   ```sh
-   hugo server -D
-   ```
-
-4. Open your browser and go to `http://localhost:1313/`
+3. Start GoLive VS Code environment:
+4. Open your browser and go to `http://localhost:5500/`
 
 ### Deployment on Hostinger
 
 This project is deployed using Hostinger. To deploy updates or make changes, follow these steps:
-
-Build the Static Files. This will generate the static site in the `public/` directory.
-
-```sh
-hugo --minify
-```
 
 Upload to Hostinger
     1. Log in to your Hostinger account.
