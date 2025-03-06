@@ -89,6 +89,7 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 
 - HTML
 - Vanilla CSS/JS
+- Vecotor Graphics (Inkscape)
 
 ## Resources
 
