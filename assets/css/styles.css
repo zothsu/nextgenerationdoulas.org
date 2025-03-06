@@ -79,6 +79,11 @@ nav > ul > li a {
   text-decoration: none;
 }
 
+.menu-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 .flex {
   display: flex;
 }
